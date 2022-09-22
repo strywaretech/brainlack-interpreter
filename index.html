@@ -11,8 +11,10 @@
 
 <body>
   <form id="form" onsubmit="return false;">
-    <textarea id="code" placeholder="BrainLack code goes here..."></textarea><br>
-    <button onclick="var input = document.getElementById('code').value; bl_parse(input);" type="submit">Execute</button>
+    <textarea id="code" placeholder="BrainLack goes here..."></textarea><br>
+    <button
+      onclick="var input = document.getElementById('code').value; alert('Success. Check the DevTools console for any errors or logs.'); bl_parse(input);"
+      type="submit">Execute</button>
   </form>
   <a href="https://brainlack.github.io/">Docs</a><br>
   <a href="https://brainlack.github.io/learn">Learn BrainLack</a>
