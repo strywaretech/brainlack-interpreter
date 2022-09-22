@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrainLack Executor</title>
+  <script type="text/javascript" src="compiler.js"></script>
+</head>
+
+<body>
+  <form id="form" onsubmit="return false;">
+    <textarea id="code" placeholder="BrainLack code goes here..."></textarea><br>
+    <button onclick="var input = document.getElementById('code').value; bl_parse(input);" type="submit">Execute</button>
+  </form>
+  <a href="https://brainlack.github.io/">Docs</a><br>
+  <a href="https://brainlack.github.io/learn">Learn BrainLack</a>
+</body>
+
+</html>
